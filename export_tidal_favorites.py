@@ -158,6 +158,9 @@ def write_text(
 def main() -> None:
     """Log ind, hent favoritter og skriv eksportfilerne."""
     print("Åbner login til TIDAL...")
+    print("Åbn linket herunder (højreklik og vælg Åbn link).")
+    print("Nu skulle du se et browservindue, hvori du kan logge ind på din konto.")
+    print("Når browseren har godkendt dig hos TIDAL, hentes dine foretrukne numre, album og kunstnere.")
 
     session = tidalapi.Session()
     session.login_oauth_simple()
