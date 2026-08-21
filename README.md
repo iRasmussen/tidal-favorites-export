@@ -2,6 +2,9 @@
 
 Et Python-script, der eksporterer gemte numre, album og kunstnere fra **Min musiksamling** i TIDAL.
 
+Du kan lære om Python på [Python Tutorial](https://www.w3schools.com/python/) hos W3Schools.
+
+
 Eksporten gemmes lokalt som både struktureret JSON og en læsbar tekstfil. Hver kørsel placeres i sin egen UTC-tidsstemplede mappe.
 
 > Projektet anvender det uofficielle Python-bibliotek `tidalapi` og er ikke udviklet, godkendt eller understøttet af TIDAL.
