@@ -2,7 +2,13 @@
 
 Alle væsentlige ændringer i projektet dokumenteres i denne fil.
 
-## 0810a - 2026-08-10
+## 1008a - 2026-10-08
+
+### Ændret
+
+- Gjort README'en mere pædagogisk med forklaring af arbejdsgang, OAuth, sideinddeling og UTC.
+- Tilføjet forventet output, fejlsøgning og kontrolpunkter efter eksporten.
+- Oversat labels i teksteksporten til dansk uden at ændre JSON-formatet.
 
 ### Tilføjet
 

@@ -120,7 +120,7 @@ def write_text(
     """Skriv en læsbar tekstoversigt over den komplette eksport."""
     lines: list[str] = []
 
-    lines.append(f"Tracks: {len(tracks)}")
+    lines.append(f"Numre: {len(tracks)}")
     for track in tracks:
         lines.append(
             " | ".join(
@@ -133,7 +133,7 @@ def write_text(
         )
 
     lines.append("")
-    lines.append(f"Albums: {len(albums)}")
+    lines.append(f"Album: {len(albums)}")
     for album in albums:
         lines.append(
             " | ".join(
@@ -145,7 +145,7 @@ def write_text(
         )
 
     lines.append("")
-    lines.append(f"Artists: {len(artists)}")
+    lines.append(f"Kunstnere: {len(artists)}")
     for artist in artists:
         lines.append(str(artist.get("name", "")))
 
@@ -158,9 +158,9 @@ def write_text(
 def main() -> None:
     """Log ind, hent favoritter og skriv eksportfilerne."""
     print("Åbner login til TIDAL...")
-    print("Åbn linket herunder (højreklik og vælg Åbn link).")
-    print("Nu skulle du se et browservindue, hvori du kan logge ind på din konto.")
-    print("Når browseren har godkendt dig hos TIDAL, hentes dine foretrukne numre, album og kunstnere.")
+    print("Åbn linket herunder (højreklik, og vælg Åbn link).")
+    print("Log ind på din konto i browservinduet.")
+    print("Når TIDAL har godkendt loginet, hentes dine gemte numre, album og kunstnere.")
 
     session = tidalapi.Session()
     session.login_oauth_simple()
