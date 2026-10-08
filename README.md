@@ -32,18 +32,6 @@ git clone https://github.com/iRasmussen/tidal-favorites-export.git
 cd tidal-favorites-export
 ```
 
-Opret et virtuelt Python-miljø:
-
-```bash
-python3 -m venv .venv
-```
-
-Aktivér miljøet på macOS eller Linux:
-
-```bash
-source .venv/bin/activate
-```
-
 Installér afhængighederne:
 
 ```bash
