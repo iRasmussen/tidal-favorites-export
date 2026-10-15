@@ -23,6 +23,17 @@ Eksporten gemmes lokalt som både struktureret JSON og en læsbar tekstfil. Hver
 - Et aktivt TIDAL-login
 - Internetforbindelse under eksporten
 
+## Test
+
+Kør projektets tests lokalt med:
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+GitHub Actions kører automatisk testene ved push og pull requests på Python 3.9
+og 3.12.
+
 ## Installation
 
 Klon repositoryet, og gå ind i projektmappen:
